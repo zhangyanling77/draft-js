@@ -1,7 +1,7 @@
 {
-  "name": "draft-js",
+  "name": "draft-js-fix-ime",
   "description": "A React framework for building text editors.",
-  "version": "0.11.7",
+  "version": "0.11.8",
   "keywords": [
     "draftjs",
     "editor",
@@ -9,7 +9,6 @@
     "richtext"
   ],
   "homepage": "http://draftjs.org/",
-  "bugs": "https://github.com/facebook/draft-js/issues",
   "files": [
     "dist/",
     "lib/",
@@ -17,7 +16,7 @@
   ],
   "main": "lib/Draft.js",
   "style": "dist/Draft.css",
-  "repository": "facebook/draft-js",
+  "repository": "https://github.com/zhangyanling77/draft-js",
   "license": "MIT",
   "scripts": {
     "prepublish": "npm run build",
@@ -42,6 +41,9 @@
   "peerDependencies": {
     "react": ">=0.14.0",
     "react-dom": ">=0.14.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
