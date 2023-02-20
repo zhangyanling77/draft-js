@@ -1,3 +1,8 @@
+## Update 2023-02-20
+
+发布的包名为：draft-js-fix-ime
+
+
 <p align="center">
   <a href="http://draftjs.org/">
     <img src="https://draftjs.org/img/draftjs-logo.svg" alt="draftjs-logo" width="8%" />
